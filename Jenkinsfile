@@ -7,6 +7,6 @@ pipeline{
                 script{
                     bat 'docker build -t eleven:latest .'
                 }
-        }
+        }    }
     }
 }
