@@ -1,3 +1,3 @@
 FROM openjdk:11-jre-slim
-COPY target/test.jar test.jar
+COPY test.jar test.jar
 ENTRYPOINT ["java", "-jar", "test.jar"]
